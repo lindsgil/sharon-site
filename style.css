@@ -1,0 +1,39 @@
+.background-content {
+  background-image: url(pattern.png) repeat;
+  background-size: cover;
+}
+
+.menu {
+  left: 0px;
+  top: 0;
+  position: fixed;
+  width: 400px;
+  height: 100%;
+  background: #FBD2C8;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.img-logo {
+  height: 70px;
+  width: auto;
+  display: block;
+  margin: 40px auto;
+}
+
+#first-icon {
+  height: 115px;
+  margin-top: 0px;
+}
+
+#book-icon {
+  height: 180px;
+}
+
+.img-icon {
+  height: 120px;
+  width: auto;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+}
