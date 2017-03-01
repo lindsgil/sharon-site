@@ -21,14 +21,12 @@
   margin: 40px auto;
 }
 
-#first-icon {
-  height: 115px;
-  margin-top: 0px;
-}
 
 .img-container-1 {
   position: relative;
   width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .overlay {
@@ -48,6 +46,14 @@
   opacity: 1;
 }
 
+#img-container-2:hover .overlay {
+  opacity: 1;
+}
+
+#img-container-3:hover .overlay {
+  opacity: 1;
+}
+
 .text-1 {
   color: black;
   font-size: 20px;
@@ -57,8 +63,17 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+#first-icon {
+  height: 115px;
+  margin-top: 0px;
+  display: block;
+}
+
 #book-icon {
   height: 180px;
+  margin-top: 0px;
+  display: block;
 }
 
 .img-icon {
