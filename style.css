@@ -1,6 +1,7 @@
 .background-content {
   background-image: url(pattern.png) repeat;
   background-size: cover;
+  position: absolute;
 }
 
 .menu {
@@ -10,7 +11,7 @@
   width: 400px;
   height: 100%;
   background: #FBD2C8;
-  z-index: 9999;
+  z-index: 999999;
   overflow: hidden;
 }
 
@@ -56,6 +57,7 @@
 
 .text-1 {
   color: black;
+  font-family: Didot bold;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -82,4 +84,26 @@
   display: block;
   text-align: center;
   margin: 0px auto;
+}
+
+.about-content {
+  left: 600px;
+  top: 200px;
+  position: inherit;;
+  height: 300px;
+  width: 300px;
+  z-index: 9999;
+  overflow: hidden;
+  text-align: center;
+  background-color: #FBD2C8;
+}
+
+h1.content-header {
+  font-family: Didot bold;
+  font-size: 20px;
+}
+
+p.paragraph-content {
+  font-family: Didot;
+  font-size: 14px;
 }
