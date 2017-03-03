@@ -39,6 +39,13 @@ a:visited {
   margin: 0 auto;
 }
 
+.img-container-2 {
+  position: relative;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -52,11 +59,25 @@ a:visited {
   background-color: #FBD2C8;
 }
 
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FBD2C8;
+}
+
+
 .img-container-1:hover .overlay {
   opacity: 1;
 }
 
-#img-container-2:hover .overlay {
+.img-container-2:hover .overlay2 {
   opacity: 1;
 }
 
@@ -65,6 +86,17 @@ a:visited {
 }
 
 .text-1 {
+  color: black;
+  font-family: Didot bold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text-2 {
   color: black;
   font-family: Didot bold;
   font-size: 20px;
@@ -98,13 +130,25 @@ a:visited {
 #about-cont {
   left: 500px;
   top: 100px;
-  position: inherit;
+  position: relative;
   height: 400px;
   width: 400px;
   z-index: 9999;
   overflow: hidden;
   text-align: center;
   background-color: #FBD2C8;
+}
+
+#about-scroll-box {
+  left: 0px;
+  top: 0px;
+  position: inherit;
+  height: 900px;
+  width: 900px;
+  z-index: 999;
+  overflow: hidden;
+  text-align: center;
+  background-color: none;
 }
 
 #work-cont {
