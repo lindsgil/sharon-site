@@ -151,10 +151,21 @@ a:visited {
   background-color: none;
 }
 
+#work-scroll-box {
+  left: 1000px;
+  top: 0px;
+  position: absolute;
+  height: 900px;
+  width: 700px;
+  z-index: 999;
+  overflow: hidden;
+  text-align: center;
+  background-color: none;
+}
+
 #work-cont {
-  left: 1300px;
-  top: 100px;
-  position: inherit;
+  margin: 100px auto;
+  position: relative;
   height: 400px;
   width: 400px;
   z-index: 9999;
