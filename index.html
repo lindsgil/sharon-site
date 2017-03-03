@@ -19,7 +19,7 @@
           <div class="img-container-1">
             <img class="img-icon" alt="glass-icon" id="first-icon" src="glasses-icon.png">
             <div class="overlay">
-              <div class="text-1"><b>about</b></div>
+              <div class="text-1" id="text-1"><a href="#" onclick='showDiv()'><b>about</b></a></div>
             </div>
           </div>
           <img class="img-icon" src="pencil-icon.png">
@@ -27,17 +27,18 @@
         </div>
       </div>
     <!--Start Body Content-->
-      <div class="about-content" id="slide1">
+      <div class="panel-content" id="about-cont" style="display:none">
         <h1 class="content-header">some text</h1>
         <p class="paragraph-content">a lot more text</p>
       </div>
-      <div class="work-content" id="slide2">
+      <div class="panel-content" id="work-cont">
         <h1 class="content-header">Another Header</h1>
         <p class="paragraph-content">Another text paragraph</p>
       </div>
-      <div class="contact-content" id="slide3">
+      <div class="panel-content" id="contact-cont">
         <h1 class="content-header">Some more text!</h1>
         <p class="paragraph-content">A LOT MORE TEXT!</p>
       </div>
     </div>
+    <script type="text/javascript" src="app.js"></script>
   </body>

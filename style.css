@@ -4,6 +4,15 @@
   position: absolute;
 }
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .menu {
   left: 0px;
   top: 0;
@@ -86,12 +95,36 @@
   margin: 0px auto;
 }
 
-.about-content {
-  left: 600px;
-  top: 200px;
-  position: inherit;;
-  height: 300px;
-  width: 300px;
+#about-cont {
+  left: 500px;
+  top: 100px;
+  position: inherit;
+  height: 400px;
+  width: 400px;
+  z-index: 9999;
+  overflow: hidden;
+  text-align: center;
+  background-color: #FBD2C8;
+}
+
+#work-cont {
+  left: 1300px;
+  top: 100px;
+  position: inherit;
+  height: 400px;
+  width: 400px;
+  z-index: 9999;
+  overflow: hidden;
+  text-align: center;
+  background-color: #FBD2C8;
+}
+
+#contact-cont {
+  left: 2000px;
+  top: 100px;
+  position: inherit;
+  height: 400px;
+  width: 400px;
   z-index: 9999;
   overflow: hidden;
   text-align: center;
