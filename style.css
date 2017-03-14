@@ -1,9 +1,12 @@
-.background-content {
-  background-image: url(pattern.png) repeat;
+#background-image {
   background-size: cover;
   position: absolute;
 }
 
+a {
+  text-decoration: none !important;
+  color: black;
+}
 a:link {
   text-decoration: none;
   color: black;
@@ -12,12 +15,29 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+a:active {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
 
 .menu {
-  left: 0px;
+  left: 0;
   top: 0;
+  margin: 0 auto;
   position: fixed;
-  width: 400px;
+  width: 500px;
   height: 100%;
   background: #FBD2C8;
   z-index: 999999;
@@ -25,8 +45,8 @@ a:visited {
 }
 
 .img-logo {
-  height: 70px;
-  width: auto;
+  height: 100%;
+  width: 100%;
   display: block;
   margin: 40px auto;
 }
@@ -40,6 +60,13 @@ a:visited {
 }
 
 .img-container-2 {
+  position: relative;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.img-container-3 {
   position: relative;
   width: 50%;
   display: block;
@@ -72,6 +99,19 @@ a:visited {
   background-color: #FBD2C8;
 }
 
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FBD2C8;
+}
+
 
 .img-container-1:hover .overlay {
   opacity: 1;
@@ -81,12 +121,13 @@ a:visited {
   opacity: 1;
 }
 
-#img-container-3:hover .overlay {
+.img-container-3:hover .overlay3 {
   opacity: 1;
 }
 
 .text-1 {
   color: black;
+  text-decoration: none;
   font-family: Didot bold;
   font-size: 20px;
   position: absolute;
@@ -98,6 +139,18 @@ a:visited {
 
 .text-2 {
   color: black;
+  text-decoration: none;
+  font-family: Didot bold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text-3 {
+  color: black;
   font-family: Didot bold;
   font-size: 20px;
   position: absolute;
@@ -108,15 +161,21 @@ a:visited {
 }
 
 #first-icon {
-  height: 115px;
-  margin-top: 0px;
+  height: 65px;
+  width: auto;
+  margin-top: 60px;
   display: block;
 }
 
+#second-icon {
+  height: 100px;
+  width: auto;
+  margin-top: 40px;
+}
+
 #book-icon {
-  height: 180px;
-  margin-top: 0px;
-  display: block;
+  height: 140px;
+  margin-top: 40px;
 }
 
 .img-icon {
@@ -128,35 +187,38 @@ a:visited {
 }
 
 #about-cont {
-  left: 500px;
+  left: 700px;
   top: 100px;
-  position: relative;
-  height: 400px;
+  margin: 50px auto;
+  position: absolute;
+  height: 450px;
   width: 400px;
-  z-index: 9999;
+  z-index: 999;
+  font-family: Didot bold;
+  float: none;
   overflow: hidden;
   text-align: center;
   background-color: #FBD2C8;
 }
 
-#about-scroll-box {
-  left: 0px;
-  top: 0px;
+#about-container {
+  margin: 20px 100px 100px 200px;
   position: inherit;
-  height: 900px;
-  width: 900px;
-  z-index: 999;
+  height: 650px;
+  width: 400px;
+  z-index: 99;
   overflow: hidden;
   text-align: center;
   background-color: none;
 }
 
-#work-scroll-box {
-  left: 1000px;
+#work-container {
+  left: 1300px;
   top: 0px;
+  margin: 20px auto;
   position: absolute;
-  height: 900px;
-  width: 700px;
+  height: 650px;
+  width: 100%;
   z-index: 999;
   overflow: hidden;
   text-align: center;
@@ -164,11 +226,17 @@ a:visited {
 }
 
 #work-cont {
-  margin: 100px auto;
-  position: relative;
-  height: 400px;
+  left: 1400px;
+  top: 100px;
+  margin: 50px auto;
+  position: absolute;
+  height: 450px;
   width: 400px;
-  z-index: 9999;
+  font-family: Didot bold;
+  text-align: center;
+  color: black;
+  float: none;
+  z-index: 999;
   overflow: hidden;
   text-align: center;
   background-color: #FBD2C8;
@@ -177,10 +245,15 @@ a:visited {
 #contact-cont {
   left: 2000px;
   top: 100px;
-  position: inherit;
-  height: 400px;
+  position: absolute;
+  margin: 50px auto;
+  height: 450px;
   width: 400px;
-  z-index: 9999;
+  z-index: 999;
+  font-family: Didot bold;
+  text-align: center;
+  color: black;
+  float: none;
   overflow: hidden;
   text-align: center;
   background-color: #FBD2C8;
