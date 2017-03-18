@@ -37,6 +37,63 @@ a:-webkit-any-link {
   background: #FBD2C8;
   z-index: 999;
   overflow: hidden;
+  display: inline-block;
+}
+button.hamburger-button {
+  background: none;
+  margin-top: 20px;
+  margin-right: 20px;
+  line-height: 45px;
+  color: black;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 999999;
+  float: right;
+}
+.hamburger-menu-list {
+  z-index: 999999;
+  margin-top: 40px;
+  font-weight:bold;
+  font-size: 14px;
+  width:50%;
+  background: #FBD2C8;
+  font-family: Didot bold;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size:12px;
+}
+.hamburger-menu-list ul {
+  list-style-type: none;
+  list-style-image: none;
+}
+.hamburger-menu-list li {
+  display: block;
+  border-bottom:#FBD2C8 1px solid;
+}
+.hamburger-menu-list li:hover{
+  display: block;
+  background:#FBD2C8;
+  border-bottom:#FBD2C8 1px solid;
+}
+.hamburger-menu-list ul li a {
+  text-decoration:none;
+  color: #FBD2C8;
+}
+.hamburger-menu-list ul li a:hover {
+  color: #FBD2C8;
+  text-decoration:none;
+}
+.hamburger-menu-list a{
+  text-decoration:none;
+  color: #FBD2C8;
+}
+.hamburger-menu-list a:hover{
+  text-decoration:none;
+  color: #FBD2C8;
 }
 
 .body-content {
@@ -51,8 +108,11 @@ a:-webkit-any-link {
 #sharon-logo {
   height: auto;
   max-width: 75%;
-  display: block;
-  margin: 20px auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-bottom: auto;
+  float: left;
 }
 
 
@@ -294,6 +354,9 @@ p.paragraph-content {
     height: 100%;
     background: #FBD2C8;
     z-index: 9;
+  }
+  button {
+    display: none;
   }
 }
 @media only screen and (min-width: 500px) {
