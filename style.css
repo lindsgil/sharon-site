@@ -26,13 +26,21 @@ a:-webkit-any-link {
   text-decoration: none;
   color: black;
 }
+body {
+  margin: 0 0 0 0;
+  background-image: url('pattern.png');
+}
+img.body-background {
+  position: fixed;
+  z-index: 9;
+}
 
 .menu {
   left: 0;
   top: 0;
   margin: 0 auto;
   position: fixed;
-  height: 15%;
+  height: 100px;
   width: 100%;
   background: #FBD2C8;
   z-index: 999;
@@ -55,49 +63,59 @@ button.hamburger-button {
 }
 .hamburger-menu-list {
   z-index: 999999;
-  margin-top: 40px;
+  margin-top: 100px;
   font-weight:bold;
-  font-size: 14px;
-  width:50%;
+  font-size: 20px;
+  width: 50%;
   background: #FBD2C8;
+  opacity: 0.8;
   font-family: Didot bold;
-  display: inline-block;
-  position: relative;
+  display: block;
   text-align: center;
-  font-size:12px;
+  float: right;
 }
 .hamburger-menu-list ul {
   list-style-type: none;
   list-style-image: none;
+  color: black;
+  padding: 10px;
 }
 .hamburger-menu-list li {
   display: block;
   border-bottom:#FBD2C8 1px solid;
+  color: black;;
+  padding: 10px;
 }
 .hamburger-menu-list li:hover{
   display: block;
+  opacity: 1.0;
   background:#FBD2C8;
   border-bottom:#FBD2C8 1px solid;
+  color: white;
 }
 .hamburger-menu-list ul li a {
   text-decoration:none;
-  color: #FBD2C8;
+  color: white;
+  opacity: 1.0;
 }
 .hamburger-menu-list ul li a:hover {
-  color: #FBD2C8;
+  color: white;
   text-decoration:none;
+  opacity: 1.0;
 }
 .hamburger-menu-list a{
   text-decoration:none;
-  color: #FBD2C8;
+  color: white;
+  opacity: 1.0;
 }
 .hamburger-menu-list a:hover{
   text-decoration:none;
-  color: #FBD2C8;
+  color: white;
+  opacity: 1.0;
 }
 
 .body-content {
-  display: block;
+  display: none;
   height: 100%;
   width: 100%;
   z-index: 999;

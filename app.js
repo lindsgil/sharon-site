@@ -6,7 +6,19 @@ function showDiv() {
 
 $('.hamburger-menu-list').hide();
 $('.hamburger-button').click(function() {
-  $('.hamburger-menu-list').slideToggle('slow', function() {
-    $('.hamburger-menu-list').hide();
+  $('.hamburger-menu-list').fadeIn('slow', function() {
+    // $('.hamburger-menu-list').hide();
   });
+});
+
+$('#about-link').click(function() {
+  $('.hamburger-menu-list').fadeOut('slow');
+});
+
+$('#work-link').click(function() {
+  $('.hamburger-menu-list').fadeOut('slow');
+});
+
+$('#contact-link').click(function() {
+  $('.hamburger-menu-list').fadeOut('slow');
 });
