@@ -114,15 +114,6 @@ button.hamburger-button {
   opacity: 1.0;
 }
 
-.body-content {
-  display: none;
-  height: 100%;
-  width: 100%;
-  z-index: 999;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
 #sharon-logo {
   height: auto;
   max-width: 75%;
@@ -279,22 +270,24 @@ button.hamburger-button {
   margin-bottom: 10px;
 }
 
-/*#about-cont {
-  left: 700px;
-  top: 100px;
-  margin: 50px auto;
-  position: absolute;
-  height: 450px;
-  width: 400px;
+#about-cont {
+  display: none;
+  margin-top: 150px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: 500px;
+  width: 100%;
   z-index: 999;
   font-family: Didot bold;
-  float: none;
+  text-align: justify;
   overflow: hidden;
-  text-align: center;
   background-color: #FBD2C8;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-#about-container {
+/*#about-container {
   margin: 20px 100px 100px 200px;
   position: inherit;
   height: 650px;
@@ -303,9 +296,9 @@ button.hamburger-button {
   overflow: hidden;
   text-align: center;
   background-color: none;
-}
+}*/
 
-#work-container {
+/*#work-container {
   left: 1300px;
   top: 0px;
   margin: 20px auto;
@@ -316,9 +309,10 @@ button.hamburger-button {
   overflow: hidden;
   text-align: center;
   background-color: none;
-}
+}*/
 
 #work-cont {
+  display: none;
   left: 1400px;
   top: 100px;
   margin: 50px auto;
@@ -336,6 +330,7 @@ button.hamburger-button {
 }
 
 #contact-cont {
+  display: none;
   left: 2000px;
   top: 100px;
   position: absolute;
@@ -350,17 +345,22 @@ button.hamburger-button {
   overflow: hidden;
   text-align: center;
   background-color: #FBD2C8;
-}*/
+}
 
-/*h1.content-header {
+h1.content-header {
+  font-family: Didot bold;
+  font-size: 26px;
+  text-align: center;
+}
+h2.second-header {
   font-family: Didot bold;
   font-size: 20px;
 }
 
 p.paragraph-content {
   font-family: Didot;
-  font-size: 14px;
-}*/
+  font-size: 16px;
+}
 
 @media only screen and (min-width:500px) {
   .menu {

@@ -13,6 +13,7 @@ $('.hamburger-button').click(function() {
 
 $('#about-link').click(function() {
   $('.hamburger-menu-list').fadeOut('slow');
+  $('#about-cont').fadeIn();
 });
 
 $('#work-link').click(function() {
