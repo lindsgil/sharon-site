@@ -1,9 +1,5 @@
 'use strict';
 
-function showDiv() {
-  document.getElementById('about-cont').style.display = '';
-};
-
 $('.hamburger-menu-list').hide();
 $('.hamburger-button').click(function() {
   $('div.panel-content').fadeOut('slow');
@@ -27,13 +23,6 @@ $('#contact-link').click(function() {
   $('#contact-cont').fadeIn();
 });
 
-$('#first-icon').hover(function() {
-  $('#first-icon').animate({opacity:0});
-  $('.overlay').animate({opacity:0});
-  $('.text-1').animate({opacity:1});
-});
-
-$('#second-icon').hover(function() {
-  $('#second-icon').animate({opacity:0});
-  $('.overlay').animate({opacity:0});
+$('#text-1').click(function() {
+  $('#about-cont').fadeIn('slow');
 });

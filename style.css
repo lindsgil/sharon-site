@@ -34,10 +34,6 @@ img.body-background {
   position: fixed;
   z-index: 9;
 }
-div {
-  z-index: 9 !important;
-}
-
 .menu {
   left: 0;
   top: 0;
@@ -424,6 +420,66 @@ p.paragraph-content {
   }
 }
 @media only screen and (min-width: 500px) {
+  #about-cont {
+    display: none;
+    font-family: Didot bold;
+    margin-top: 150px;
+    position: fixed;
+    left: 600px;
+    height: 900px;
+    width: 600px;
+    z-index: 9;
+    text-align: justify;
+    background-color: #FBD2C8;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  #desk-header {
+    font-size: 125px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+  }
+  #desk-lower {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 72px;
+    text-align: center;
+  }
+  #work-cont {
+    display: none;
+    font-family: Didot bold;
+    margin-top: 150px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 1000px;
+    width: 100%;
+    z-index: 9;
+    text-align: justify;
+    background-color: #FBD2C8;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  #contact-cont {
+    display: none;
+    font-family: Didot bold;
+    margin-top: 150px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    z-index: 9;
+    text-align: justify;
+    background-color: #FBD2C8;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+}
+@media only screen and (min-width: 500px) {
   img#background-image {
     height: 100%;
     width: 100%;
@@ -431,6 +487,7 @@ p.paragraph-content {
   .img-container-1 {
     position: relative;
     width: 50%;
+    height: 100%;
     display: block;
     margin: 0 auto;
   }
@@ -443,6 +500,7 @@ p.paragraph-content {
   .img-container-3 {
     position: relative;
     width: 50%;
+    height: 100%;
     display: block;
     margin: 0 auto;
   }
@@ -485,17 +543,21 @@ p.paragraph-content {
     transition: .5s ease;
     background-color: #FBD2C8;
   }
-  /*.img-container-1:hover .overlay {
+  .img-container-1:hover .overlay {
     opacity: 1;
+    display: block;
   }
 
   .img-container-2:hover .overlay2 {
     opacity: 1;
+    display: block;
   }
 
   .img-container-3:hover .overlay3 {
     opacity: 1;
-  }*/
+    display: block;
+  }
+
   .text-1 {
     display: block;
     color: black;
