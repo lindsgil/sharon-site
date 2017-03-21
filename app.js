@@ -10,7 +10,7 @@ $('.hamburger-button').click(function() {
 
 $('#about-link').click(function() {
   $('.hamburger-menu-list').fadeOut('slow');
-  $('#about-cont').fadeIn();
+  $('#about-cont').fadeIn('slow');
 });
 
 $('#work-link').click(function() {
@@ -24,5 +24,16 @@ $('#contact-link').click(function() {
 });
 
 $('#text-1').click(function() {
+  $('.panel-content').fadeOut('slow');
   $('#about-cont').fadeIn('slow');
+});
+
+$('#text-2').click(function() {
+  $('.panel-content').fadeOut('slow');
+  $('#work-cont').fadeIn('slow');
+});
+
+$('#text-3').click(function() {
+  $('.panel-content').fadeOut('slow');
+  $('#contact-cont').fadeIn('slow');
 });
