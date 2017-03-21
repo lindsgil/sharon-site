@@ -26,3 +26,14 @@ $('#contact-link').click(function() {
   $('.hamburger-menu-list').fadeOut('slow');
   $('#contact-cont').fadeIn();
 });
+
+$('#first-icon').hover(function() {
+  $('#first-icon').animate({opacity:0});
+  $('.overlay').animate({opacity:0});
+  $('.text-1').animate({opacity:1});
+});
+
+$('#second-icon').hover(function() {
+  $('#second-icon').animate({opacity:0});
+  $('.overlay').animate({opacity:0});
+});
