@@ -328,7 +328,7 @@ button.hamburger-button {
 #contact-cont {
   display: none;
   font-family: Didot bold;
-  margin-top: 150px;
+  margin-top: 200px;
   position: fixed;
   right: 0;
   left: 0;
@@ -341,12 +341,12 @@ button.hamburger-button {
   padding-right: 10px;
 }
 
-h1.content-header {
+h1.mob-header {
   font-family: Didot bold;
   font-size: 26px;
   text-align: center;
 }
-h2.second-header {
+h2.mob-lower {
   font-family: Didot bold;
   font-size: 20px;
   text-align: justify;
@@ -355,6 +355,21 @@ h2.second-header {
 
 p.paragraph-content {
   font-family: Didot;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+  padding-right: 5px;
+}
+p.mob-email {
+  font-family: Didot bold;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 5px;
+}
+h2.mob-p {
+  font-family: Didot;
+  font-weight: normal;
   font-size: 16px;
   text-align: justify;
   padding-right: 5px;
@@ -455,16 +470,17 @@ p.paragraph-content {
     font-size: 16px;
     font-weight: 300;
     line-height: 32px;
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
   }
   #email-paragraph {
     font-size: 66px;
     font-weight: bold;
     line-height: 32px;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
   }
+
   .paragraph-content {
     line-height: 32px;
   }
@@ -488,6 +504,7 @@ p.paragraph-content {
     font-family: Didot bold;
     margin-top: 150px;
     margin-bottom: auto;
+    margin-right: 20px;
     position: relative;
     left: 600px;
     height: 100%;
