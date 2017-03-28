@@ -30,6 +30,16 @@ body {
   margin: 0 0 0 0;
   background-image: url('pattern.png');
 }
+/*footer {
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background: #FBD2C8;
+  z-index: 999;
+  overflow: hidden;
+  display: inline-block;
+  position: fixed;
+}*/
 img.body-background {
   position: fixed;
   z-index: 9;
@@ -283,6 +293,7 @@ button.hamburger-button {
   background-color: #FBD2C8;
   padding-left: 5px;
   padding-right: 10px;
+  overflow: scroll;
 }
 
 /*#about-container {
