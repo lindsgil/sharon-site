@@ -283,10 +283,9 @@ button.hamburger-button {
   display: none;
   font-family: Didot bold;
   margin-top: 150px;
-  position: fixed;
+  margin-bottom: 40px;
   right: 0;
   left: 0;
-  height: 900px;
   width: 100%;
   z-index: 9;
   text-align: justify;
@@ -450,7 +449,8 @@ h2.mob-p {
     display: none;
     font-family: Didot bold;
     margin-top: 150px;
-    margin-bottom: auto;
+    margin-bottom: 100px;
+    margin-right: 100px;
     position: relative;
     left: 600px;
     height: 100%;
@@ -499,7 +499,8 @@ h2.mob-p {
     display: none;
     font-family: Didot bold;
     margin-top: 150px;
-    margin-bottom: auto;
+    margin-bottom: 100px;
+    margin-right: 100px;
     position: relative;
     left: 600px;
     height: 100%;
@@ -514,8 +515,8 @@ h2.mob-p {
     display: none;
     font-family: Didot bold;
     margin-top: 150px;
-    margin-bottom: auto;
-    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-right: 100px;
     position: relative;
     left: 600px;
     height: 100%;
