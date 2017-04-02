@@ -433,12 +433,11 @@ h2.mob-p {
   #about-cont {
     display: none;
     font-family: Didot bold;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    position: relative;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-right: 10vw;
+    margin-left: 45vw;
     left: 600px;
-    height: 100%;
     width: 600px;
     z-index: 9;
     text-align: justify;
@@ -484,12 +483,11 @@ h2.mob-p {
   #work-cont {
     display: none;
     font-family: Didot bold;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    position: relative;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-right: 10vw;
+    margin-left: 45vw;
     left: 600px;
-    height: 100%;
     width: 600px;
     z-index: 9;
     text-align: justify;
@@ -500,12 +498,11 @@ h2.mob-p {
   #contact-cont {
     display: none;
     font-family: Didot bold;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    position: relative;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-right: 10vw;
+    margin-left: 45vw;
     left: 600px;
-    height: 100%;
     width: 800px;
     z-index: 9;
     text-align: justify;
