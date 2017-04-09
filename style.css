@@ -90,14 +90,14 @@ button.hamburger-button {
   list-style-type: none;
   list-style-image: none;
   color: black;
-  padding: 10px;
+  padding: 1vw;
   z-index: 99999;
 }
 .hamburger-menu-list li {
   display: block;
   /*border-bottom:#FBD2C8 1px solid;*/
   color: black;;
-  padding: 10px;
+  padding: 3vw;
   z-index: 99999;
 }
 .hamburger-menu-list li:hover{
@@ -341,34 +341,34 @@ button.hamburger-button {
 
 h1.mob-header {
   font-family: Didot bold;
-  font-size: 26px;
+  font-size: 10vw;
   text-align: center;
 }
 h2.mob-lower {
   font-family: Didot bold;
-  font-size: 20px;
+  font-size: 5.5vw;
   text-align: justify;
-  padding-right: 5px;
+  padding-right: 1vw;
 }
 
 p.paragraph-content {
   font-family: Didot;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 4.6vw;
   text-align: justify;
-  padding-right: 5px;
+  padding-right: 1vw;
 }
 p.mob-email {
   font-family: Didot bold;
-  font-size: 20px;
+  font-size: 6vw;
   font-weight: bold;
   text-align: center;
-  padding-right: 5px;
+  padding-right: 1vw;
 }
 h2.mob-p {
   font-family: Didot;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 4.6vw;
   text-align: justify;
   padding-right: 5px;
 }
@@ -396,31 +396,31 @@ h2.mob-p {
   #sharon-logo {
     height: auto;
     max-width: 75%;
-    margin: 40px auto;
+    margin: 3vw auto;
     float: none;
   }
   #first-icon {
-    height: 65px;
+    height: 5vw;
     width: auto;
-    margin-top: 60px;
+    margin-top: 4vw;
     display: block;
   }
   #second-icon {
-    height: 100px;
+    height: 7.8vw;
     width: auto;
-    margin-top: 60px;
+    margin-top: 4vw;
     display: block;
   }
   #book-icon {
-    height: 140px;
+    height: 10vw;
     width: auto;
-    margin-top: 60px;
+    margin-top: 4vw;
     display: block;
   }
   .img-icon {
     display: block;
     text-align: center;
-    margin: 40px auto;
+    margin: 3vw auto;
     margin-bottom: 10px;
   }
 }
@@ -429,7 +429,7 @@ h2.mob-p {
     height: auto;
     width: 80%;
     display: block;
-    margin: 40px auto;
+    margin: 4vw auto;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -445,43 +445,53 @@ h2.mob-p {
     z-index: 9;
     text-align: justify;
     background-color: #FBD2C8;
-    padding-left: 8px;
-    padding-right: 10px;
+    padding-left: 2vw;
+    padding-right: 1.9vw;
     overflow: hidden;
   }
   #desk-header {
-    margin-top: 30px;
-    margin-bottom: 6px;
-    font-size: 175px;
+    margin-top: 2vw;
+    margin-bottom: 0.8vw;
+    font-size: 10vw;
     font-weight: bold;
-    letter-spacing: -1px;
+    letter-spacing: -.1vw;
     line-height: 1;
     text-align: center;
   }
   #desk-lower {
-    font-size: 22px;
+    font-size: 1.5vw;
     font-weight: 300;
-    line-height: 32px;
-    margin-top: 5px;
+    line-height: 1.5vw;
+    margin-top: 2vw;
     text-align: center;
   }
   #lower {
-    font-size: 16px;
+    font-size: 1.2vw;
     font-weight: 300;
-    line-height: 32px;
-    margin-top: 10px;
+    line-height: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 1.9vw;
+    margin-top: 2vw;
     text-align: center;
   }
   #email-paragraph {
-    font-size: 66px;
+    font-size: 5vw;
     font-weight: bold;
-    line-height: 32px;
-    margin-top: 60px;
+    line-height: 1.5vw;
+    margin-top: 4vw;
     text-align: center;
+  }
+  p.paragraph-content {
+    font-family: Didot;
+    font-weight: normal;
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    text-align: justify;
+    padding-right: 1vw;
   }
 
   .paragraph-content {
-    line-height: 32px;
+    line-height: 1.8vw;
   }
   #work-cont {
     display: none;
@@ -495,8 +505,8 @@ h2.mob-p {
     z-index: 9;
     text-align: justify;
     background-color: #FBD2C8;
-    padding-left: 8px;
-    padding-right: 10px;
+    padding-left: 2vw;
+    padding-right: 1.9vw;
   }
   #contact-cont {
     display: none;
@@ -510,8 +520,8 @@ h2.mob-p {
     z-index: 9;
     text-align: justify;
     background-color: #FBD2C8;
-    padding-left: 8px;
-    padding-right: 10px;
+    padding-left: 2vw;
+    padding-right: 1.9vw;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -598,7 +608,7 @@ h2.mob-p {
     color: black;
     text-decoration: none;
     font-family: Didot bold;
-    font-size: 20px;
+    font-size: 2vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -610,7 +620,7 @@ h2.mob-p {
     color: black;
     text-decoration: none;
     font-family: Didot bold;
-    font-size: 20px;
+    font-size: 2vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -621,7 +631,7 @@ h2.mob-p {
     display: block;
     color: black;
     font-family: Didot bold;
-    font-size: 20px;
+    font-size: 2vw;
     position: absolute;
     top: 50%;
     left: 50%;
