@@ -1,0 +1,68 @@
+#sharon-logo {
+  height: 11vw;
+  max-width: 75%;
+  margin-top: 2vw;
+  margin-left: 7vw;
+  margin-right: auto;
+  margin-bottom: auto;
+  float: left;
+}
+.text-1 {
+  display: none;
+  color: black;
+  text-decoration: none;
+  font-family: Didot bold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-2 {
+  display: none;
+  color: black;
+  text-decoration: none;
+  font-family: Didot bold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-3 {
+  display: none;
+  color: black;
+  font-family: Didot bold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#first-icon {
+  height: 65px;
+  width: auto;
+  margin-top: 60px;
+  display: none;
+}
+#second-icon {
+  height: 100px;
+  width: auto;
+  margin-top: 40px;
+  display: none;
+}
+#book-icon {
+  height: 140px;
+  width: auto;
+  margin-top: 40px;
+  display: none;
+}
+.img-icon {
+  display: block;
+  text-align: center;
+  margin: 40px auto;
+  margin-bottom: 10px;
+}

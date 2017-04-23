@@ -3,7 +3,7 @@
 $('.hamburger-menu-list').hide();
 $('.hamburger-button').click(function() {
   $('div.panel-content').fadeOut('slow');
-  $('.hamburger-menu-list').fadeIn('slow', function() {
+  $('.hamburger-menu-list').fadeIn('fast', function() {
     // $('.hamburger-menu-list').hide();
   });
 });
@@ -14,7 +14,7 @@ $('#about-link').click(function() {
 });
 
 $('#work-link').click(function() {
-  $('.hamburger-menu-list').fadeOut('slow');
+  $('.hamburger-menu-list').fadeOut('fast');
   $('#work-cont').fadeIn();
 });
 

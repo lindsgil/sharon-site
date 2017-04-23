@@ -1,0 +1,64 @@
+a {
+  text-decoration: none !important;
+  color: black;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+body {
+  margin: 0 0 0 0;
+  background-image: url('../assets/pattern.png');
+}
+h1.mob-header {
+  font-family: Didot bold;
+  font-size: 10vw;
+  text-align: center;
+}
+h2.mob-lower {
+  font-family: Didot bold;
+  font-size: 5.5vw;
+  text-align: justify;
+  padding-right: 1vw;
+}
+p.paragraph-content {
+  font-family: Didot;
+  font-weight: normal;
+  font-size: 4.6vw;
+  text-align: justify;
+  padding-right: 1vw;
+}
+p.mob-email {
+  font-family: Didot bold;
+  font-size: 6vw;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 1vw;
+}
+h2.mob-p {
+  font-family: Didot;
+  font-weight: normal;
+  font-size: 4.6vw;
+  text-align: justify;
+  padding-right: 5px;
+}
