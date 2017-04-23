@@ -1,2 +1,13 @@
-# sharon-site
-Personal website for Sharon Frajilich
+# Website for Copy-Editor Sharon Frajlich
+
+---
+
+## Languages & Tools
+
+### HTML
+
+### JavaScript
+
+- [jQuery](https://api.jquery.com/) is used for HTML traversal and event handling.
+
+### CSS
