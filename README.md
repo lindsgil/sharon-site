@@ -1,4 +1,4 @@
-# Mobile First, Responsive Web Design for Copy-Editor Sharon Frajlich
+# Mobile First, Responsive Web Design
 
 ---
 
