@@ -9,7 +9,7 @@ $('.hamburger-button').click(function() {
 });
 
 $('#about-link').click(function() {
-  $('.hamburger-menu-list').fadeOut('slow');
+  $('.hamburger-menu-list').fadeOut('fast');
   $('#about-cont').fadeIn('slow');
 });
 
@@ -19,7 +19,7 @@ $('#work-link').click(function() {
 });
 
 $('#contact-link').click(function() {
-  $('.hamburger-menu-list').fadeOut('slow');
+  $('.hamburger-menu-list').fadeOut('fast');
   $('#contact-cont').fadeIn();
 });
 
