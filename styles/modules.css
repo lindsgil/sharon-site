@@ -30,6 +30,16 @@ button.hamburger-button {
   float: right;
 }
 
+.work-content-examples {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 .menu-icon {
   display: block;
 }
@@ -221,6 +231,10 @@ button.hamburger-button {
     height: 100%;
     background: #FBD2C8;
     z-index: 99999;
+  }
+  .work-content-examples {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   button {
     display: none;
